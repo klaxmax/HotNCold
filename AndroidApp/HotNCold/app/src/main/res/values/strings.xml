@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Hot\'N\'Cold</string>
+    <color name="background">#b24200</color>
+    <color name="redbackground">#ff6e19</color>
+    <color name="redtext">#990000</color>
+    <color name="redlogobackground">#ff5e00</color>
+    <color name="bluebackground">#00b2b2</color>
+    <color name="bluetextandbackground">#00ffff</color>
+    <color name="bluelogo">#2b78e4</color>
 </resources>

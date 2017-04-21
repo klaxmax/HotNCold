@@ -7,4 +7,5 @@
     <color name="bluebackground">#00b2b2</color>
     <color name="bluetextandbackground">#00ffff</color>
     <color name="bluelogo">#2b78e4</color>
+    <string name="title_activity_maps">Map</string>
 </resources>

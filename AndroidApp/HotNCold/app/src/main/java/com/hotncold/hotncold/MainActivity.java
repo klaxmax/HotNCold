@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.hotncold.hotncold.view.MapsActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,7 +16,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openFilterActivity(View v){
-        startActivity(new Intent(getApplicationContext(),FilterActivity.class));
+        ColorTheme colTheme = ColorTheme.getInstance();
+
+        colTheme.setColBackground(getResources().getColor(R.color.background));
+        colTheme.setColBackgroundTheme(getResources().getColor(R.color.redbackground));
+        colTheme.setColLogo(getResources().getColor(R.color.redlogobackground));
+        colTheme.setColText(getResources().getColor(R.color.redtext));
+
+        Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+        startActivity(intent);
     }
 
 }

@@ -14,6 +14,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:background="@color/bluebackground"
+        android:onClick="openFilterActivityCold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.824"
         app:layout_constraintLeft_toLeftOf="parent"

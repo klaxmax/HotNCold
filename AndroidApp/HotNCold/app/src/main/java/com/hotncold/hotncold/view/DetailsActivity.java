@@ -7,15 +7,16 @@ import android.support.v7.widget.Toolbar;
 import com.hotncold.hotncold.R;
 
 /**
- * Created by Klaxmax on 20.04.2017.
+ * Created by Klaxmax on 30.04.2017.
  */
 
-public class FilterActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_filter);
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar_filter);
+        setContentView(R.layout.activity_details);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar_detail);
         setSupportActionBar(myToolbar);
     }
 }

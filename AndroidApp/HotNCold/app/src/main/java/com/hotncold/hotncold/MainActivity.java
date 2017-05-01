@@ -5,6 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.hotncold.hotncold.controller.LocationListController;
+import com.hotncold.hotncold.view.DetailsActivity;
+import com.hotncold.hotncold.view.LocationOverviewActivity;
+import com.hotncold.hotncold.view.MapViewActivity;
 import com.hotncold.hotncold.view.MapsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +27,12 @@ public class MainActivity extends AppCompatActivity {
         colTheme.setColLogo(getResources().getColor(R.color.redlogobackground));
         colTheme.setColText(getResources().getColor(R.color.redtext));
 
-        Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+        Intent intent = new Intent(getApplicationContext(),MapViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void openFilterActivityCold(View v){
+        Intent intent = new Intent(getApplicationContext(), LocationOverviewActivity.class);
         startActivity(intent);
     }
 

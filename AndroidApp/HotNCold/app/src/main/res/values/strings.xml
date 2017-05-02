@@ -8,4 +8,9 @@
     <color name="bluetextandbackground">#00ffff</color>
     <color name="bluelogo">#2b78e4</color>
     <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
 </resources>

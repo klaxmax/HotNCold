@@ -5,11 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.hotncold.hotncold.controller.LocationListController;
-import com.hotncold.hotncold.view.DetailsActivity;
 import com.hotncold.hotncold.view.LocationOverviewActivity;
 import com.hotncold.hotncold.view.MapViewActivity;
-import com.hotncold.hotncold.view.MapsActivity;
 
 public class MainActivity extends AppCompatActivity {
 

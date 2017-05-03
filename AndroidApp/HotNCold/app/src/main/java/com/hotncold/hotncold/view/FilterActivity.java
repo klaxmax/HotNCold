@@ -15,7 +15,7 @@ public class FilterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar_filter);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar_detail);
         setSupportActionBar(myToolbar);
     }
 }

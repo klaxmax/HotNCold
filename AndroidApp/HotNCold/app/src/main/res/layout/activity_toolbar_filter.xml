@@ -46,17 +46,17 @@
             android:layout_marginLeft="8dp" />
 
         <ImageButton
-            android:id="@+id/FilterFunnelImage"
+            android:id="@+id/FilterFunnelButton"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginBottom="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
             android:background="?attr/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:srcCompat="@drawable/ic_big_funnel"
-            android:layout_marginRight="16dp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="0dp" />
+            app:srcCompat="@drawable/ic_big_funnel" />
 
     </android.support.constraint.ConstraintLayout>
 

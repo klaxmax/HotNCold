@@ -87,12 +87,23 @@
         android:gravity="bottom|end"
         android:orientation="vertical">
 
-        <include
-            android:id="@+id/include2"
-            layout="@layout/activity_location_overview"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+
+
+            <include
+                android:id="@+id/includeDetails"
+                layout="@layout/activity_details"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+
+            <include
+                android:id="@+id/includeMenue"
+                layout="@layout/activity_location_overview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
 
         <!--<ScrollView-->
         <!--android:id="@+id/sv"-->

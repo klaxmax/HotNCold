@@ -1,6 +1,7 @@
 package com.hotncold.hotncold.controller;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,6 +31,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Get the data item for this position
         Location location = getItem(position);
+        Log.i("Putting Item", location.getStrName() + " " + position);
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_location_entry, parent, false);
